@@ -1,4 +1,0 @@
-# Russian strings go here for Rails i18n
-ru:
-  issuesreportedbymewithstatus: "Решенные задачи"
-  label_solved_issue_plural: "Решенные задачи"
