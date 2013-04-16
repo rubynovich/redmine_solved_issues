@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  issuesreportedbymewithstatus: "Solved issues"
+  label_solved_issue_plural: "Solved issues"
