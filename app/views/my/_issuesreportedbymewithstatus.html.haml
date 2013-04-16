@@ -1,4 +1,4 @@
-- status_id = Setting[:plugin_redmine_my_page][:issue_status]
+- status_id = Setting[:plugin_redmine_solved_issues][:issue_status]
 - issues = Issue.visible.open.where(:author_id => User.current.id, :status_id => status_id)
 
 %h3
