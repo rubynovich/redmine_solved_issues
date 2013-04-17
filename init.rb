@@ -10,5 +10,4 @@ Redmine::Plugin.register :redmine_solved_issues do
                        :issue_status => IssueStatus.last(:conditions => {:is_closed => false}).try(:id)
                      },
          :partial => 'settings/settings'
-
 end
