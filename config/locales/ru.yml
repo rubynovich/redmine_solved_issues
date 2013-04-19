@@ -9,4 +9,4 @@ ru:
   mail_subject_solved_issues5: " %{count} решенных задач должны быть закрыты"
   mail_body_solved_issues1: " %{count} решенная задача, поставленная Вами, должна быть закрыта:"
   mail_body_solved_issues2: " %{count} решенные задачи, поставленные Вами, должны быть закрыты:"
-  mail_body_solved_issues3: " %{count} решенных задач, поставленных Вами, должны быть закрыты:"
+  mail_body_solved_issues5: " %{count} решенных задач, поставленных Вами, должны быть закрыты:"
