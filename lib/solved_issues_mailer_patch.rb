@@ -16,7 +16,7 @@ module SolvedIssuesPlugin
         mailcopy = options[:cc]
         status_id = Setting[:plugin_redmine_solved_issues][:issue_status]
         solved_issues = Issue.open.where(:status_id => status_id)
-        solved_issues.map(&:author).uniq.map do |user|
+        solved_issues.select(&:author).map(&:author).uniq.map do |user|
           solved_issues_mail(user, solved_issues.where(:author_id => user.id), mailcopy).deliver
         end
       end
