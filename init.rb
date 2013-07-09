@@ -11,7 +11,7 @@ Redmine::Plugin.register :redmine_solved_issues do
   settings :default => {
                        :issue_status => IssueStatus.last(:conditions => {:is_closed => false}).try(:id)
                      },
-         :partial => 'settings/settings'
+         :partial => 'solved_issues/settings'
 end
 
 if Rails::VERSION::MAJOR < 3
